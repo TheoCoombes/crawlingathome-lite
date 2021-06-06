@@ -1,7 +1,7 @@
 # Crawling@Home Lite Setup Script
 
 apt update
-apt upgrade
+yes | apt upgrade
 
 ulimit -n 65356
 
